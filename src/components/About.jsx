@@ -8,13 +8,13 @@ export const About = () => {
   return (
     <>
         <div className='section'>
-            <h2>KEVIN <span>SÁNCHEZ OBANDO</span></h2>
-            <h3>Software Developer</h3>
+            <p className='primary-title'>KEVIN <span>SÁNCHEZ OBANDO</span></p>
+            <p className='role-title'>Software Developer</p>
 
-            <p>
+            <p className='regular-text'>
             Software developer focused on Front End development. Experienced in 
             creating solutions using best practices for various clients and 
-            working wit agile and cross-functional teams. I am social, 
+            working with agile and cross-functional teams. I am social, 
             conversational, meticulous, analytical, and strategic, 
             dedicated to providing clients and end users with the best software 
             solutions.
@@ -33,8 +33,8 @@ export const About = () => {
                     </a>
                 </IconContext.Provider>
             </div>
+            <hr />
         </div>
-        <hr />
     </>
   )
 }
