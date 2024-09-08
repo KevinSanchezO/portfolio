@@ -2,6 +2,7 @@ import React from 'react'
 import { SideBar } from './components/SideBar'
 import './Portfolio.css'
 import { About } from './components/about'
+import { Experience } from './components/Experience'
 
 export const Portfolio = () => {
   return (
@@ -10,6 +11,7 @@ export const Portfolio = () => {
             <SideBar />            
             <main className='main-content'>
                 <About/>
+                <Experience />
             </main>
         </div>
     </div>

@@ -35,6 +35,9 @@
     display: inline-block;
     background-color: var(--primary-color);
     color: var(--side-bar-letters);
+    font-family: "Chakra Petch", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .side-bar button:hover {
