@@ -20,7 +20,7 @@ export const About = () => {
             solutions.
             <br/>
             Apart from being a software developer, I enjoy most of my time indoors
-            drawing, listening to music and following and experiencing a number of 
+            drawing, listening to music and following and experiencing different 
             video games and animated series, I'm an aspiring chef and occasionally 
             develop video games in my free time. When forced outdoors, I enjoy swimming,
             travelling and discovering new places to eat.
