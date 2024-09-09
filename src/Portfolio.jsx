@@ -1,7 +1,7 @@
 import React from 'react'
 import { SideBar } from './components/SideBar'
 import './Portfolio.css'
-import { About } from './components/about'
+import { About } from './components/About'
 import { Experience } from './components/Experience'
 import { Education } from './components/Education'
 import { Skills } from './components/Skills'
