@@ -4,6 +4,7 @@ import './Portfolio.css'
 import { About } from './components/about'
 import { Experience } from './components/Experience'
 import { Education } from './components/Education'
+import { Skills } from './components/Skills'
 
 export const Portfolio = () => {
   return (
@@ -14,6 +15,7 @@ export const Portfolio = () => {
                 <About/>
                 <Experience />
                 <Education />
+                <Skills />
             </main>
         </div>
     </div>
