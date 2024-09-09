@@ -2,21 +2,21 @@ import React from 'react'
 import { FaArrowRight } from "react-icons/fa6";
 import '../styles/Card.css'
 
-export const Card = ({imgSource, heading, content, link, sourceCode}) => {
+export const Card = ({imgSource, heading, content, link, sourceCode, brightColorImage}) => {
   return (
     <div className='card'>
-        <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80" 
-        alt=""/>
+        <img src={imgSource} 
+        alt="Example image of the project"/>
         <div className='card-content'>
-            <h2>
+            <h2 style={{ color: brightColorImage ? 'black' : 'white' }}>
                 {heading}
             </h2>
             
-            <p>
+            <p style={{ color: brightColorImage ? 'black' : 'white' }}>
                 {content}
             </p>
 
-            <a href={link} className="button">
+            <a href={link} className="button" style={{ color: brightColorImage ? 'black' : 'white' }}>
                 Find out more 
                 <span>
                 <FaArrowRight />
