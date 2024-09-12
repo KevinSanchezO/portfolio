@@ -17,17 +17,17 @@ export const Experience = () => {
                 <p className='section-entry-subtitle'>Accenture</p>
                 <p className='regular-text'>
 
-                As a Front End Developer, I was responsible for 
+                As a front-end developer, I was responsible for 
                 maintaining, restructuring and optimizing existing code to
                 uphold high-quality standards. Additionally, I developed new
-                features to meetclient requirements, ensuring thedelivery of 
-                customized, user-centric products. Impacted more than 7000 
-                users within all the different departments in Accenture.
+                features to meet client requirements, ensuring the delivery of 
+                customized, user-centric products. This work Impacted more than 
+                7000 across various departments at Accenture.
                 <br/>
-                Engaged in daily scrum meetings to assess progress, pinpoint
-                potential challenges and strategize upcoming tasks.
+                Engaged in daily scrum meetings to assess progress, identify 
+                potential challenges, and strategize upcoming tasks.
                 <br/>
-                Occasionally helped in Back En development with .NET and PostgresSQL.
+                Assisted in back-end development using .NET and PostgreSQL.
                 </p>
                 </div>
             </div>
@@ -42,11 +42,11 @@ export const Experience = () => {
                 <p className='section-entry-subtitle'>Freelance</p>
                 <p className='regular-text'>
 
-                Developed a fullstack web application for a small business to
+                Developed a full-stack web application for a small business to
                 manage inventory and users. The application allowed users to register sales,
                 view sales statistics, generate inventory alerts for low stock or slow-moving
                 products and modify, add and delete inventory items. This system helped the
-                business reduce costs up to 35% abd unorive inventory management efficiency.
+                business reduce costs by up to 35% and improved inventory management efficiency.
                 </p>
                 </div>
             </div>
