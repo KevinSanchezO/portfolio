@@ -39,8 +39,9 @@ export const About = () => {
                     </a>
                 </IconContext.Provider>
             </div>
-            <hr />
         </div>
+
+        <hr/>
     </>
   )
 }

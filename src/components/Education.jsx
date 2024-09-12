@@ -15,9 +15,9 @@ export const Education = () => {
 
                     <p className='section-entry-subtitle'>Bachelor's Degree in Computer Engineering</p>
                 </div>
-
-                <hr />
             </div>
+
+            <hr/>
         </>
 
     )

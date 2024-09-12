@@ -45,9 +45,9 @@ export const Experience = () => {
                 business reduce costs up to 35% abd unorive inventory management efficiency.
                 </p>
             </div>
-
-            <hr />
         </div>
+
+        <hr/>
     </>
   )
 }
