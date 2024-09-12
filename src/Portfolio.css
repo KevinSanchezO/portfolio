@@ -17,3 +17,13 @@
     overflow: auto;
     margin-left: 300px;
 }
+
+@media (max-width: 910px) {
+    .main-content {
+        background-color: var(--white);
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+}
+

@@ -43,3 +43,7 @@
 .side-bar button:hover {
     color: var(--white);
 }
+
+@media (max-width: 910px) {
+    .side-bar {display: none;}
+}
