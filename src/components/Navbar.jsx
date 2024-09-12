@@ -8,7 +8,7 @@ export const Navbar = ({ scrollToSection }) => {
         <img className='pfp' src={profileImage} alt="Profile picture" />
 
         <button onClick={() => scrollToSection('about')}>ABOUT</button>
-        <button onClick={() => scrollToSection('experience')}>EXPERIENCE</button>
+        <button onClick={() => scrollToSection('experience')}>EXP</button>
         <button onClick={() => scrollToSection('education')}>EDUCATION</button>
         <button onClick={() => scrollToSection('skills')}>SKILLS</button>
     </header>
