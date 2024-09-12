@@ -1,15 +1,45 @@
 import React from 'react'
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { IconContext } from "react-icons";
+import { CiGlobe } from "react-icons/ci";
+import { FiSmartphone } from "react-icons/fi";
+import { AiOutlineMail } from "react-icons/ai";
+
 
 import '../styles/Sections.css'
+import { TypeAnimation } from 'react-type-animation';
 
 export const About = () => {
   return (
     <>
         <div className='section'>
             <p className='primary-title'>KEVIN <span>SÁNCHEZ OBANDO</span></p>
-            <p className='role-title'>Software Developer</p>
+            
+            <div className='come-closer'>
+            <p className='section-entry-subtitle'>
+            <CiGlobe /> Costa Rica • <FiSmartphone /> +506 87720184 • <span><AiOutlineMail /> kesanchezo@gmail.com</span>
+            </p>
+            <TypeAnimation 
+                className='role-title'
+                sequence={[
+                    'Web Developer',
+                    1500,
+                    'Proactive',
+                    1500,
+                    'Creative problem solver',
+                    1500,
+                    'Connecting front-end finesse with back-end logic',
+                    1500,
+                    'Making things work behind the scenes',
+                    1500,
+                    'Interested in learning Mobile development',
+                    1500,
+                    'Game developer in his free time',
+                    1500
+                ]}
+                speed={50}
+                repeat={Infinity}
+            />
 
             <p className='regular-text'>
             Software developer focused on <b>web development</b>. Experienced in 
@@ -28,16 +58,17 @@ export const About = () => {
 
             <div className='icons'>
                 <IconContext.Provider value={{ color: "#2C2E3A", className: "icon" }}>
-                    <a href="https://www.linkedin.com/in/kevin-sanchez-obando/">
+                    <a href="https://www.linkedin.com/in/kevin-sanchez-obando/" target='_blank'>
                         <FaLinkedin size={50}/>
                     </a>
                 </IconContext.Provider>
 
                 <IconContext.Provider value={{ color: "#2C2E3A", className: "icon" }}>
-                    <a href="https://github.com/KevinSanchezO">
+                    <a href="https://github.com/KevinSanchezO" target='_blank'>
                         <FaGithub size={50}/>
                     </a>
                 </IconContext.Provider>
+            </div>
             </div>
         </div>
 

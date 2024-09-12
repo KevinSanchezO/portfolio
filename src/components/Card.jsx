@@ -16,7 +16,7 @@ export const Card = ({imgSource, heading, content, link, sourceCode, brightColor
                 {content}
             </p>
 
-            <a href={link} className="button" style={{ color: brightColorImage ? 'black' : 'white' }}>
+            <a href={link} className="button" style={{ color: brightColorImage ? 'black' : 'white' }} target='_blank'>
                 Find out more 
                 <span>
                 <FaArrowRight />

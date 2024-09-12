@@ -12,6 +12,8 @@ export const Experience = () => {
                 <p className='section-entry-date'>February 2024 - June 2024</p>
                 </div>
                 
+                <div className='come-closer'>
+
                 <p className='section-entry-subtitle'>Accenture</p>
                 <p className='regular-text'>
 
@@ -27,6 +29,7 @@ export const Experience = () => {
                 <br/>
                 Occasionally helped in Back En development with .NET and PostgresSQL.
                 </p>
+                </div>
             </div>
 
             <div className='entry'>
@@ -35,6 +38,7 @@ export const Experience = () => {
                 <p className='section-entry-date'>June 2023 - November 2023</p>
                 </div>
                 
+                <div className='come-closer'>
                 <p className='section-entry-subtitle'>Freelance</p>
                 <p className='regular-text'>
 
@@ -44,6 +48,7 @@ export const Experience = () => {
                 products and modify, add and delete inventory items. This system helped the
                 business reduce costs up to 35% abd unorive inventory management efficiency.
                 </p>
+                </div>
             </div>
         </div>
 
