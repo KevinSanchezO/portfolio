@@ -5,6 +5,7 @@ import { About } from './components/About'
 import { Experience } from './components/Experience'
 import { Education } from './components/Education'
 import { Skills } from './components/Skills'
+import { Navbar } from './components/Navbar'
 
 export const Portfolio = () => {
 
@@ -36,6 +37,7 @@ export const Portfolio = () => {
   return (
     <div className='page-container'>
         <div className='content'>
+            <Navbar scrollToSection={scrollToSection}/>
             <SideBar scrollToSection={scrollToSection}/>            
             <main className='main-content'>
                 <section ref={aboutRef}>
