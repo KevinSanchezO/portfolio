@@ -17,18 +17,20 @@ export const Portfolio = () => {
     const scrollToSection = (section) => {
         switch(section) {
             case 'about':
+                console.log(aboutRef);
                 aboutRef.current.scrollIntoView({ behavior: 'smooth'});
                 break;
             case 'experience':
+                console.log(experienceRef)
                 experienceRef.current.scrollIntoView({ behavior: 'smooth'});
                 break;
             case 'education':
+                console.log(educationRef)
                 educationRef.current.scrollIntoView({ behavior: 'smooth'});
                 break;
             case 'skills':
+                console.log(skillstRef)
                 skillstRef.current.scrollIntoView({ behavior: 'smooth'});
-                break;
-            default:
                 break;
         }
     }

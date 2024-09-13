@@ -7,7 +7,7 @@
 .content {
     display: flex;
     flex: 1;
-    overflow: hidden;
+    /* overflow: hidden;  this makes the scroll to parts in the page fuck up*/
 }
 
 .main-content {
