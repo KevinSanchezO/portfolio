@@ -7,7 +7,6 @@ import { Education } from './components/Education'
 import { Skills } from './components/Skills'
 import { Navbar } from './components/Navbar'
 import { Spinner } from './components/Spinner'
-import { Fade } from 'react-reveal'
 
 export const Portfolio = () => {
 

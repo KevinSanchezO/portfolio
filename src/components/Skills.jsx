@@ -2,12 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { Card } from './Card'
 import cardsInformation from '../data/CardInformation'
 
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
-import { FaReact } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
-
 export const Skills = () => {
     const [cardsInfo, setCardsInfo] = useState([]);
 
