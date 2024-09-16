@@ -14,10 +14,6 @@ export const Skills = () => {
     useEffect(() => {
         setCardsInfo(cardsInformation);
     }, [])
-
-    useEffect(() => {
-        console.log(cardsInfo);
-    }, [cardsInfo])
     
     return (
         <>
@@ -44,7 +40,7 @@ export const Skills = () => {
                     </div>
                 </div>
                 
-                <div className='entry'>
+                {/* <div className='entry'>
                     <p className='section-entry-subtitle'>
                         PROGRAMMING LANGUAGES & TOOLS
                     </p>
@@ -55,7 +51,7 @@ export const Skills = () => {
                         <p className='regular-text'>Spring Boot • Github • DevOps • Postman • MongoDB</p>
                         <p className='regular-text'>SQLServer • PostgreSQL • Postman</p>
                     </div>
-                </div>
+                </div> */}
             </div>
 
             <hr/>

@@ -7,7 +7,17 @@
 .content {
     display: flex;
     flex: 1;
+    animation: fade-in 1s;
     /* overflow: hidden;  this makes the scroll to parts in the page fuck up*/
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100;
+    }
 }
 
 .main-content {

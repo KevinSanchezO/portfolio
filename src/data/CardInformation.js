@@ -1,6 +1,7 @@
 import journalApp from '../assets/journal-app.png'
 import calendarApp from '../assets/calendar-app.png'
 import gifApp from '../assets/gif-expert-app.png'
+import deathPenalty from '../assets/death-penalty.png'
 
 const cardsInformation = [
     {
@@ -30,6 +31,15 @@ const cardsInformation = [
         sourceCode: 'https://github.com/KevinSanchezO/gif-expert-app',
         brightColorImage: false,
     },
+    {
+        imgSource : deathPenalty,
+        heading : 'Death Penalty',
+        content : 
+        'Web videogame developed with Godot and HTML configurations that simulates physics as seen on classic 3D shooters from the 90s such as Quake, Half Life and Counter Strike.',
+        link: 'https://zokuin.itch.io/death-penalty',
+        sourceCode: 'https://github.com/KevinSanchezO/death-penalty',
+        brightColorImage: false,
+    }
 
 ]
 
