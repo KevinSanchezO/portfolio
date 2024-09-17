@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Card } from './Card'
 import cardsInformation from '../data/CardInformation'
 import techStack from '../data/TechStack'
+import { TypeAnimation } from 'react-type-animation'
 
 export const Skills = () => {
     const [cardsInfo, setCardsInfo] = useState([]);
@@ -14,6 +15,19 @@ export const Skills = () => {
         <>
             <div className='section'>
                 <p className='section-title'>SKILLS</p>
+
+                <div className='come-closer'>
+                    <TypeAnimation
+                        className='section-subtitle'
+                        sequence={[
+                            'Don’t wait for inspiration. It comes while working. - Henri Matisse',
+                            4000
+                        ]}
+                        speed={100}
+                        repeat={Infinity}
+                    />
+                </div>
+
 
                 <div className='entry'>
                     <p className='section-entry-subtitle'>

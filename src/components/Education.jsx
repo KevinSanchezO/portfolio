@@ -1,4 +1,5 @@
 import React from 'react'
+import { TypeAnimation } from 'react-type-animation'
 
 export const Education = () => {
     return (
@@ -6,6 +7,17 @@ export const Education = () => {
         <>
             <div className='section'>
                 <p className='section-title'>EDUCATION</p>
+                <div className='come-closer'>
+                    <TypeAnimation 
+                        className='section-subtitle'
+                        sequence={[
+                            'The roots of education are bitter, but the fruit is sweet. - Aristotle',
+                            4000
+                        ]}
+                        speed={100}
+                        repeat={Infinity}
+                    />
+                </div>
 
                 <div className='entry'>
                     <div className='entry-header'>

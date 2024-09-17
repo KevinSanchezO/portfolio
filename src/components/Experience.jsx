@@ -1,11 +1,24 @@
 import React from 'react'
 import experienceInformation from '../data/ExperienceInformation'
+import { TypeAnimation } from 'react-type-animation'
 
 export const Experience = () => {
   return (
     <>
         <div className='section'>
             <p className='section-title'>EXPERIENCE</p>
+
+            <div className='come-closer'>
+                <TypeAnimation
+                    className='section-subtitle'
+                    sequence={[
+                        'Nothing ever becomes real \'til it is experienced. - John Keats',
+                        4000
+                    ]}
+                    speed={100}
+                    repeat={Infinity}
+                />
+            </div>
 
             {experienceInformation.map((exp, index) => (
                 <div className='entry' key={index}>
