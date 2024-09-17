@@ -63,7 +63,50 @@ const techStack = [
         logo: 'https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/spring/spring-original.svg',
         name: 'Spring'
     },
-
+    {
+        logo: 'https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/nodejs/nodejs-original.svg',
+        name: 'NodeJS'
+    },
+    {
+        logo: 'https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/express/express-original.svg',
+        name: 'Express'
+    },
+    {
+        logo: 'https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/microsoftsqlserver/microsoftsqlserver-original.svg',
+        name: 'Microsoft SQL Server'
+    },
+    {
+        logo: 'https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/postgresql/postgresql-original.svg',
+        name: 'PostgreSQL'
+    },
+    {
+        logo: 'https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/mongodb/mongodb-original.svg',
+        name: 'MongoDB'
+    },
+    {
+        logo: 'https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/github/github-original.svg',
+        name: 'Github'
+    },
+    {
+        logo: 'https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/azuredevops/azuredevops-original.svg',
+        name: 'Azure DevOps'
+    },
+    {
+        logo: 'https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/postman/postman-original.svg',
+        name: 'Postman'
+    },
+    {
+        logo: 'https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/figma/figma-original.svg',
+        name: 'Figma'
+    },
+    {
+        logo: 'https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/firebase/firebase-original.svg',
+        name: 'Firebase'
+    },
+    {
+        logo: 'https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/godot/godot-original.svg',
+        name: 'Godot'
+    },
 ]
 
 export default techStack
