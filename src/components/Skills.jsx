@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Card } from './Card'
 import cardsInformation from '../data/CardInformation'
+import techStack from '../data/TechStack'
 
 export const Skills = () => {
     const [cardsInfo, setCardsInfo] = useState([]);
@@ -34,6 +35,25 @@ export const Skills = () => {
                     </div>
                 </div>
                 
+
+                <div className='entry'>
+                    <p className='section-entry-subtitle'>
+                        LANGUAGES AND TOOLS I HAVE USED
+                    </p>
+
+                    <div className='tech-table'>
+                        {techStack.map((tech, index) => (
+                            <div className='tech' key={index}>
+                            <img 
+                                src={tech.logo}
+                                alt={tech.name} className='image-tech'
+                            />
+                            <p className='text-tech'>{tech.name}</p>
+                        </div>
+                        ))}
+                    </div>
+                </div>
+
                 {/* <div className='entry'>
                     <p className='section-entry-subtitle'>
                         PROGRAMMING LANGUAGES & TOOLS
