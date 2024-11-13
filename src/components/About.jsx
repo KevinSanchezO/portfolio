@@ -42,8 +42,7 @@ export const About = () => {
             />
 
             <p className='regular-text'>
-            Software developer focused on <b>web development</b>. Experienced in 
-            creating solutions using best practices for various clients and 
+            Experienced in creating solutions using best practices for various clients and 
             working with agile and cross-functional teams. I am social, 
             conversational, meticulous, analytical, and strategic, 
             dedicated to providing clients and end users with the best software 
