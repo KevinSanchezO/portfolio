@@ -30,16 +30,16 @@ const cardsInformation = [
         link: 'https://gifferexpertapp.netlify.app/',
         sourceCode: 'https://github.com/KevinSanchezO/gif-expert-app',
         brightColorImage: false,
-    },
-    {
-        imgSource : deathPenalty,
-        heading : 'Death Penalty',
-        content : 
-        'Web videogame developed with Godot and HTML configurations that simulates physics as seen on classic 3D shooters from the 90s such as Quake, Half Life and Counter Strike.',
-        link: 'https://zokuin.itch.io/death-penalty',
-        sourceCode: 'https://github.com/KevinSanchezO/death-penalty',
-        brightColorImage: false,
     }
+    // {
+    //     imgSource : deathPenalty,
+    //     heading : 'Death Penalty',
+    //     content : 
+    //     'Web videogame developed with Godot and HTML configurations that simulates physics as seen on classic 3D shooters from the 90s such as Quake, Half Life and Counter Strike.',
+    //     link: 'https://zokuin.itch.io/death-penalty',
+    //     sourceCode: 'https://github.com/KevinSanchezO/death-penalty',
+    //     brightColorImage: false,
+    // }
 
 ]
 
